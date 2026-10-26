@@ -1,0 +1,13 @@
+{
+  "name": "Auto TriM – Martin Sládek, autodíly Pohořelice",
+  "short_name": "Auto TriM",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#efeb0e",
+  "icons": [
+    { "src": "favicon-32.png", "type": "image/png", "sizes": "32x32" },
+    { "src": "apple-touch-icon.png", "type": "image/png", "sizes": "180x180" },
+    { "src": "assets/img/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

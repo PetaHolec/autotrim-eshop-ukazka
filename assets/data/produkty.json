@@ -1,0 +1,531 @@
+{
+    "poznamka": "Výchozí zboží, dokud není v katalog-config.php vyplněná Google Tabulka (stejný tvar, jaký vzniká z tabulky).",
+    "kategorie": [
+        {
+            "id": "baterie",
+            "nazev": "Autobaterie",
+            "ill": "baterie",
+            "rada": "Kapacitu (Ah), startovací proud (A) a polaritu najdete na štítku staré baterie. Nebo nám napište model auta a baterii vybereme za vás.",
+            "poptavka": {
+                "skupina": "Osvětlení a elektro",
+                "dil": "Autobaterie"
+            },
+            "filtry": [
+                {
+                    "id": "pouziti",
+                    "nazev": "Použití"
+                },
+                {
+                    "id": "technologie",
+                    "nazev": "Technologie"
+                },
+                {
+                    "id": "polarita",
+                    "nazev": "Polarita"
+                }
+            ]
+        },
+        {
+            "id": "oleje",
+            "nazev": "Oleje a kapaliny",
+            "ill": "olej",
+            "rada": "Správný olej určuje norma výrobce (např. VW 504.00) – najdete ji v servisní knížce. Nejste si jistí? Napište nám model a motor.",
+            "poptavka": {
+                "skupina": "Oleje a kapaliny",
+                "dil": "Motorový olej"
+            },
+            "filtry": [
+                {
+                    "id": "druh",
+                    "nazev": "Druh"
+                },
+                {
+                    "id": "viskozita",
+                    "nazev": "Viskozita"
+                },
+                {
+                    "id": "normy",
+                    "nazev": "Normy"
+                }
+            ]
+        },
+        {
+            "id": "sterace",
+            "nazev": "Stěrače",
+            "ill": "sterace",
+            "rada": "Délku změříte na staré liště, nebo ji najdete v návodu k autu. Na mnoho aut se hodí jen určité uchycení – rádi poradíme.",
+            "poptavka": {
+                "skupina": "Stěrače",
+                "dil": "Stírací lišty"
+            },
+            "filtry": [
+                {
+                    "id": "typ",
+                    "nazev": "Typ"
+                },
+                {
+                    "id": "delka",
+                    "nazev": "Délka"
+                }
+            ]
+        }
+    ],
+    "produkty": [
+        {
+            "id": "bat-varta-e11",
+            "kat": "baterie",
+            "znacka": "Varta",
+            "nazev": "Blue Dynamic E11",
+            "kratce": "12 V · 74 Ah · 680 A",
+            "popis": "Baterie pro většinu osobních aut střední třídy bez systému Start-Stop. Velikost E11 patří k nejběžnějším, přesto před nákupem porovnejte rozměr a polaritu se starou baterií.\n\nStarou baterii u nás můžete odevzdat k ekologické likvidaci.",
+            "parametry": {
+                "Kapacita": "74 Ah",
+                "Startovací proud": "680 A",
+                "Rozměr": "278 × 175 × 190 mm",
+                "Polarita": "pravá +",
+                "Technologie": "klasická",
+                "Použití": "Osobní"
+            },
+            "filtry": {
+                "polarita": [
+                    "pravá +"
+                ],
+                "technologie": [
+                    "klasická"
+                ],
+                "pouziti": [
+                    "Osobní"
+                ]
+            },
+            "cena": 2890,
+            "sklad": 4
+        },
+        {
+            "id": "bat-varta-agm70",
+            "kat": "baterie",
+            "znacka": "Varta",
+            "nazev": "Silver Dynamic AGM E39",
+            "kratce": "12 V · 70 Ah · 760 A · Start-Stop",
+            "popis": "AGM baterie pro auta se systémem Start-Stop a rekuperací brzdné energie. Pokud vaše auto mělo z výroby AGM baterii, musí být náhradou opět AGM – klasická baterie by v takovém autě rychle odešla.\n\nPo výměně je u některých aut potřeba baterii přihlásit v řídicí jednotce. Poradíme, jestli se to týká i vašeho vozu.",
+            "parametry": {
+                "Kapacita": "70 Ah",
+                "Startovací proud": "760 A",
+                "Rozměr": "278 × 175 × 190 mm",
+                "Polarita": "pravá +",
+                "Technologie": "AGM",
+                "Použití": "Osobní"
+            },
+            "filtry": {
+                "polarita": [
+                    "pravá +"
+                ],
+                "technologie": [
+                    "AGM"
+                ],
+                "pouziti": [
+                    "Osobní"
+                ]
+            },
+            "cena": 4890,
+            "sklad": 2
+        },
+        {
+            "id": "bat-bosch-s4-005",
+            "kat": "baterie",
+            "znacka": "Bosch",
+            "nazev": "S4 005",
+            "kratce": "12 V · 60 Ah · 540 A",
+            "parametry": {
+                "Kapacita": "60 Ah",
+                "Startovací proud": "540 A",
+                "Rozměr": "242 × 175 × 175 mm",
+                "Polarita": "pravá +",
+                "Technologie": "klasická",
+                "Použití": "Osobní"
+            },
+            "filtry": {
+                "polarita": [
+                    "pravá +"
+                ],
+                "technologie": [
+                    "klasická"
+                ],
+                "pouziti": [
+                    "Osobní"
+                ]
+            },
+            "cena": 2290,
+            "sklad": 6
+        },
+        {
+            "id": "bat-exide-77",
+            "kat": "baterie",
+            "znacka": "Exide",
+            "nazev": "Premium EA770",
+            "kratce": "12 V · 77 Ah · 760 A",
+            "parametry": {
+                "Kapacita": "77 Ah",
+                "Startovací proud": "760 A",
+                "Rozměr": "278 × 175 × 190 mm",
+                "Polarita": "pravá +",
+                "Technologie": "klasická",
+                "Použití": "Osobní"
+            },
+            "filtry": {
+                "polarita": [
+                    "pravá +"
+                ],
+                "technologie": [
+                    "klasická"
+                ],
+                "pouziti": [
+                    "Osobní"
+                ]
+            },
+            "cena": 2790,
+            "sklad": 1
+        },
+        {
+            "id": "bat-banner-44",
+            "kat": "baterie",
+            "znacka": "Banner",
+            "nazev": "Power Bull P44 09",
+            "kratce": "12 V · 44 Ah · 420 A",
+            "parametry": {
+                "Kapacita": "44 Ah",
+                "Startovací proud": "420 A",
+                "Rozměr": "207 × 175 × 175 mm",
+                "Polarita": "pravá +",
+                "Technologie": "klasická",
+                "Použití": "Osobní"
+            },
+            "filtry": {
+                "polarita": [
+                    "pravá +"
+                ],
+                "technologie": [
+                    "klasická"
+                ],
+                "pouziti": [
+                    "Osobní"
+                ]
+            },
+            "cena": 1590,
+            "sklad": 3
+        },
+        {
+            "id": "bat-varta-promotive-140",
+            "kat": "baterie",
+            "znacka": "Varta",
+            "nazev": "Promotive Black 140 Ah",
+            "kratce": "12 V · 140 Ah · 800 A",
+            "parametry": {
+                "Kapacita": "140 Ah",
+                "Startovací proud": "800 A",
+                "Rozměr": "513 × 189 × 223 mm",
+                "Polarita": "levá +",
+                "Technologie": "klasická",
+                "Použití": "Užitkové"
+            },
+            "filtry": {
+                "polarita": [
+                    "levá +"
+                ],
+                "technologie": [
+                    "klasická"
+                ],
+                "pouziti": [
+                    "Užitkové"
+                ]
+            },
+            "cena": 5890,
+            "sklad": 0
+        },
+        {
+            "id": "olej-castrol-edge-5w30-ll-4",
+            "kat": "oleje",
+            "znacka": "Castrol",
+            "nazev": "EDGE 5W-30 LL",
+            "kratce": "Motorový olej · 4 l",
+            "popis": "Plně syntetický olej s prodlouženým výměnným intervalem (LongLife) pro motory koncernu VW, u kterých servisní knížka předepisuje normu VW 504.00 nebo 507.00 – benzínové i naftové, včetně motorů s filtrem pevných částic.\n\nBalení 4 l obvykle stačí na výměnu u menších a středních motorů. Přesné množství najdete v návodu k obsluze.",
+            "parametry": {
+                "Viskozita": "5W-30",
+                "Schválení": "VW 504.00 \/ 507.00",
+                "Balení": "4 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Motorový olej"
+                ],
+                "viskozita": [
+                    "5W-30"
+                ],
+                "normy": [
+                    "VW 504.00 \/ 507.00"
+                ]
+            },
+            "cena": 1090,
+            "sklad": 8
+        },
+        {
+            "id": "olej-mobil1-esp-5w30-4",
+            "kat": "oleje",
+            "znacka": "Mobil 1",
+            "nazev": "ESP 5W-30",
+            "kratce": "Motorový olej · 4 l",
+            "popis": "Olej pro moderní benzínové i naftové motory s filtrem pevných částic. Splňuje normy Mercedes-Benz i koncernu VW, takže se hodí, když máte doma víc aut různých značek.",
+            "parametry": {
+                "Viskozita": "5W-30",
+                "Schválení": "MB 229.51, VW 504.00 \/ 507.00",
+                "Balení": "4 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Motorový olej"
+                ],
+                "viskozita": [
+                    "5W-30"
+                ],
+                "normy": [
+                    "MB 229.51",
+                    "VW 504.00 \/ 507.00"
+                ]
+            },
+            "cena": 1190,
+            "sklad": 5
+        },
+        {
+            "id": "olej-shell-ect-c3-5w30-5",
+            "kat": "oleje",
+            "znacka": "Shell",
+            "nazev": "Helix Ultra ECT C3 5W-30",
+            "kratce": "Motorový olej · 5 l",
+            "parametry": {
+                "Viskozita": "5W-30",
+                "Schválení": "BMW LL-04, MB 229.51",
+                "Balení": "5 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Motorový olej"
+                ],
+                "viskozita": [
+                    "5W-30"
+                ],
+                "normy": [
+                    "BMW LL-04",
+                    "MB 229.51"
+                ]
+            },
+            "cena": 1290,
+            "sklad": 4
+        },
+        {
+            "id": "olej-total-ineo-ecs-5w30-5",
+            "kat": "oleje",
+            "znacka": "Total",
+            "nazev": "Quartz Ineo ECS 5W-30",
+            "kratce": "Motorový olej · 5 l",
+            "parametry": {
+                "Viskozita": "5W-30",
+                "Schválení": "PSA B71 2290",
+                "Balení": "5 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Motorový olej"
+                ],
+                "viskozita": [
+                    "5W-30"
+                ],
+                "normy": [
+                    "PSA B71 2290"
+                ]
+            },
+            "cena": 990,
+            "sklad": 6
+        },
+        {
+            "id": "olej-castrol-magnatec-10w40-4",
+            "kat": "oleje",
+            "znacka": "Castrol",
+            "nazev": "Magnatec 10W-40 A3\/B4",
+            "kratce": "Motorový olej · 4 l",
+            "parametry": {
+                "Viskozita": "10W-40",
+                "Schválení": "ACEA A3\/B4",
+                "Balení": "4 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Motorový olej"
+                ],
+                "viskozita": [
+                    "10W-40"
+                ],
+                "normy": [
+                    "ACEA A3\/B4"
+                ]
+            },
+            "cena": 690,
+            "sklad": 7
+        },
+        {
+            "id": "kap-glysantin-g40-15",
+            "kat": "oleje",
+            "znacka": "Glysantin",
+            "nazev": "G40 koncentrát",
+            "kratce": "Chladicí kapalina · 1,5 l",
+            "popis": "Koncentrát chladicí kapaliny, který se ředí destilovanou vodou, nejčastěji v poměru 1 : 1. Kapaliny různých typů nemíchejte – když si nejste jistí, co máte v autě, napište nám značku a model.",
+            "parametry": {
+                "Schválení": "VW TL 774-G (G13)",
+                "Balení": "1,5 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Chladicí kapalina"
+                ],
+                "normy": [
+                    "VW TL 774-G (G13)"
+                ]
+            },
+            "cena": 289,
+            "sklad": 10
+        },
+        {
+            "id": "kap-ate-dot4-1",
+            "kat": "oleje",
+            "znacka": "ATE",
+            "nazev": "SL.6 DOT 4",
+            "kratce": "Brzdová kapalina · 1 l",
+            "parametry": {
+                "Schválení": "DOT 4 Class 6",
+                "Balení": "1 l"
+            },
+            "filtry": {
+                "druh": [
+                    "Brzdová kapalina"
+                ],
+                "normy": [
+                    "DOT 4 Class 6"
+                ]
+            },
+            "cena": 259,
+            "sklad": 9
+        },
+        {
+            "id": "ster-bosch-aerotwin-600-400",
+            "kat": "sterace",
+            "znacka": "Bosch",
+            "nazev": "Aerotwin – sada 600 + 400 mm",
+            "kratce": "Ploché lišty na přední sklo",
+            "popis": "Sada plochých stíracích lišt bez kovového rámečku. Lišta přiléhá ke sklu po celé délce, stírá tišeji a v zimě na ní tolik nenamrzá led.\n\nDélku ověřte podle starých lišt – na straně řidiče je delší (600 mm), u spolujezdce kratší (400 mm). Nevíte, jaké uchycení má vaše auto? Přineste starou lištu na prodejnu.",
+            "parametry": {
+                "Délka": "600 + 400 mm",
+                "Provedení": "plochá",
+                "Balení": "2 ks"
+            },
+            "filtry": {
+                "typ": [
+                    "Přední sada"
+                ],
+                "delka": [
+                    "600 mm",
+                    "400 mm"
+                ]
+            },
+            "cena": 649,
+            "sklad": 5
+        },
+        {
+            "id": "ster-bosch-aerotwin-650-400",
+            "kat": "sterace",
+            "znacka": "Bosch",
+            "nazev": "Aerotwin – sada 650 + 400 mm",
+            "kratce": "Ploché lišty na přední sklo",
+            "parametry": {
+                "Délka": "650 + 400 mm",
+                "Provedení": "plochá",
+                "Balení": "2 ks"
+            },
+            "filtry": {
+                "typ": [
+                    "Přední sada"
+                ],
+                "delka": [
+                    "650 mm",
+                    "400 mm"
+                ]
+            },
+            "cena": 689,
+            "sklad": 3
+        },
+        {
+            "id": "ster-valeo-silencio-600-450",
+            "kat": "sterace",
+            "znacka": "Valeo",
+            "nazev": "Silencio X.TRM – sada 600 + 450 mm",
+            "kratce": "Ploché lišty na přední sklo",
+            "parametry": {
+                "Délka": "600 + 450 mm",
+                "Provedení": "plochá",
+                "Balení": "2 ks"
+            },
+            "filtry": {
+                "typ": [
+                    "Přední sada"
+                ],
+                "delka": [
+                    "600 mm",
+                    "450 mm"
+                ]
+            },
+            "cena": 590,
+            "sklad": 2
+        },
+        {
+            "id": "ster-bosch-twin-530",
+            "kat": "sterace",
+            "znacka": "Bosch",
+            "nazev": "Twin 530 mm",
+            "kratce": "Klasická lišta s rámečkem · 1 ks",
+            "parametry": {
+                "Délka": "530 mm",
+                "Provedení": "klasická",
+                "Balení": "1 ks"
+            },
+            "filtry": {
+                "typ": [
+                    "Jednotlivá lišta"
+                ],
+                "delka": [
+                    "530 mm"
+                ]
+            },
+            "cena": 189,
+            "sklad": 6
+        },
+        {
+            "id": "ster-bosch-rear-340",
+            "kat": "sterace",
+            "znacka": "Bosch",
+            "nazev": "Rear 340 mm",
+            "kratce": "Zadní stěrač · 1 ks",
+            "parametry": {
+                "Délka": "340 mm",
+                "Provedení": "zadní",
+                "Balení": "1 ks"
+            },
+            "filtry": {
+                "typ": [
+                    "Zadní"
+                ],
+                "delka": [
+                    "340 mm"
+                ]
+            },
+            "cena": 219,
+            "sklad": 4
+        }
+    ]
+}
